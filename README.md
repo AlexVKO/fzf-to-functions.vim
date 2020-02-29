@@ -9,7 +9,7 @@ Language agnostic
 Installation
 ------------
 
-fzf-to-functions.vim depends on the basic Vim plugin of https://github.com/junegunn/fzf.vim, so make sure you have this instealled.
+fzf-to-functions.vim depends on the basic Vim plugin of https://github.com/junegunn/fzf.vim, so make sure you have this installed.
 
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
