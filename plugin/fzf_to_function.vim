@@ -24,7 +24,7 @@ function! s:align_lists(lists)
 endfunction
 
 function! s:methods_source()
-  let lines = map(split(system(printf('cat %s | grep "def\ .*do"', expand('%:S'))), "\n"), 'split(v:val, "\t")')
+  let lines = map(split(system(printf('cat %s | grep "def\ .*"', expand('%:S'))), "\n"), 'split(v:val, "\t")')
   return map(s:align_lists(lines), 'join(v:val, "\t")')
 endfunction
 
